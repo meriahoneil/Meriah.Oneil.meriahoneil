@@ -33,5 +33,15 @@ Git is the revision control system that manages code history. GitHub is a hostin
 
 4. What does git pull do? How is it different from/same as git fetch and git merge?
 
-E3
-1.
+E4
+1. What is a request?
+
+2. What is making the request?
+
+3. Where does the request go (physically, and conceptually)? What’s its “address”?
+
+4. What happens to the request when it gets “there”?
+
+5. What comes back? What is it? What data does it contain?
+
+6. What happens when it comes back?
