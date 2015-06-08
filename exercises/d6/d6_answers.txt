@@ -1,0 +1,37 @@
+E1
+1. What does the git init command do?
+The git init command initializes an empty repository or initializes one that already exists.
+
+2. What does git add do? How is is different from git commit?
+The git add command grabs a snapshot of the content and prepares it to be committed to the repository by git commit.
+
+3. What is the difference between staged and committed (or versioned) files?
+Staged files are in the intermediate stage where they are ready to be added to the repository while committed files have been committed to the repository. 
+
+4.What’s the shortcut for adding all files and committing them?
+git add -A && git commit
+
+5. How do you unstage a staged file? How do you go back to an older version of a committed file?
+To unstage a staged file input git reset or git reset <filename>. 
+
+6. Why are commit messages very important?
+So that you know what alterations are made to different versions of the same file (keep things organized).
+
+7. How do I revert to a previous commit (i.e. go back to an earlier “draft”)?
+Somehow use git checkout I’m not sure
+
+8. How do you exit out of vi? (Also called vim)
+Hit esc and then type :q
+
+E2
+1. What’s the difference between GitHub and git? Could git exist without GitHub? Could GitHub exist without git?
+Git is the revision control system that manages code history. GitHub is a hosting service that hosts Git repositories (it’s also not the only one). So GitHub could not exist without Git but git can exist without GitHub.
+
+2. Why is GitHub a cool company?
+
+3. What does git push do?
+
+4. What does git pull do? How is it different from/same as git fetch and git merge?
+
+E3
+1.
