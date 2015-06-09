@@ -1,0 +1,19 @@
+.all --> shows you all of the objects within whatever class you call it on (Class Method)
+	Ex. Tweet.all
+.first --> shows the first object within whatever class you call it on (Class Method)
+	Ex. Tweet.first
+.new --> Creates a new object within whatever class you call it on (Class Method)
+	Ex. Tweet.new(body: "Text", user_id: 1) *(You have to save it still with .save)
+.find --> Retrives objects that contain the named id or list of ids (No implied ordering)
+	Ex. Tweet.find(1) or Tweet.find(1, 2, 5)
+.find_by --> Finds the first record matching the specified conditions (There is no impled ordering)
+	Ex. Tweet.find_by user_id: 4
+.where --> Finds all objects matching the specified conditions (Class Method)
+	Ex. Tweet.where(user_id: 1)
+
+tweet = Tweet.find(1)
+
+.save --> Saves whatever you're working on? (Instance Method)
+	Ex. tweet.save 
+.update_attributes --> Updates all the attributes that are passed through it and saves the record (Instance Method)
+	Ex. tweet.update_attributes(body: "omg this cat is AMAZING")

@@ -1,0 +1,40 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  position: relative;
+  top: 5px;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image: url("../images/CapeTown.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {  
+  position: relative;
+  top: 90px;
+}
+
+.front {
+  position: relative;
+  margin: 20px 50px;
+} 
+
+.qa {
+  position: relative;
+  margin: 20px 50px;
+}
+
+.about {
+  position: relative;
+  margin: 20px 50px;
+}

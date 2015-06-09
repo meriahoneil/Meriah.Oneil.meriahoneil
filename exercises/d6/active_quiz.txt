@@ -1,0 +1,9 @@
+1. What is a database?
+An organized collection of data
+
+2. What is a database table? How does it relate to a database? What's a good analogy for a database table (i.e. way to visualize it)?
+A data table is a visual instrument used to arrange info in a database
+
+3. Draw the tweets database table
+
+4. Why do we use models/resources at all?
