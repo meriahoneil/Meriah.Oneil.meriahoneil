@@ -37,7 +37,7 @@ while true
 			puts "Player 2 You WIN!"
 			break
 		
-		elsif board[0,9] != [0, 0, 0, 0, 0, 0, 0, 0, 0]
+		elsif board[0,9] 
 			puts "Its a tie!"
 			break
 		end
