@@ -8,13 +8,13 @@ while true
 	
 	puts "Player #{turn}: "
 
-	move = gets
+	move = gets.strip.to_i
 
-	if
+	if move < 1 || move > 9 
 		puts "Sorry thats not a number, try again!"
 		
 	else 
-		
+		move = move - 1
 		if board[move] != 0
 			puts "Sorry that space is taken, try again!" 
 		else
@@ -27,7 +27,19 @@ while true
 			end
 				
 			puts "#{board[0]}  |#{board[1]}  |#{board[2]}  \n---+---+---\n#{board[3]}  |#{board[4]}  |#{board[5]}  \n---+---+---\n#{board[6]}  |#{board[7]}  |#{board[8]}  "
-			
+		end
+		
+		if board[0,3] == "X" || board[3,6] == "X" || board[6,9] == "X" || board[0] == "X" && board[4] == "X" && board[8] == "X" || board[2] == "X" && board[4] == "X" && board[6] == "X"
+			puts "Player 1 You WIN!"
+			break
+
+		elsif board[0,3] == "O" || board[3,6] == "O" || board[6,9] == "O" || board[0] == "O" && board[4] == "O" && board[8] == "O" || board[2] == "O" && board[4] == "O" && board[6] == "O"
+			puts "Player 2 You WIN!"
+			break
+		
+		elsif board[0,9] != [0, 0, 0, 0, 0, 0, 0, 0, 0]
+			puts "Its a tie!"
+			break
 		end
 		
 	end
